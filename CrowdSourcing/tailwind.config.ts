@@ -11,13 +11,21 @@ const config: Config = {
       colors:{
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
+        'black-color': 'var(--black-color)', 
         'sub-30': 'var(--sub-30)',
         sub: 'var(--sub)',
       },
-      backgroundImage: {
+      backgroundImage:{
         'on-code': 'var(--on-code)', 
         'on-code-70': 'var(--on-code-70)',
+        LoginBackgroundColor: 'var(--LoginBackgroundColor)'
       },
+      aspectRatio:{
+        'card-image': '420px / 240px',
+      },
+      height:{
+        'screen-navbar': 'calc(100vh - 64px) !important'
+      }
     },
   },
   plugins: [],
